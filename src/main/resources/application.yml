@@ -1,6 +1,12 @@
 spring:
   application:
     name: ai-agent
+  ai:
+    dashscope:
+      api-key: sk-9281894fcc7a46ebb8ea3a5e9ea3c976
+      chat:
+        options:
+          model: tongyi-xiaomi-analysis-pro
 server:
   port: 8888
   servlet:
